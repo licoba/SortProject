@@ -1,6 +1,7 @@
 package KuaiSu;
 
-//快速排序算法
+// ✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨
+//快速排序算法，递归寻找下标之后进行swap操作
 public class KuaiSuSort {
     public void quick_sort(int[] numbers, int left, int right) {
         if(left<right) {
