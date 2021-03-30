@@ -30,7 +30,7 @@ public class KuaiSuSort {
     public static void main(String[] args) {
         int[] numbers = new int[]{5, 8, 1, 6, 2, 3, 9, 7, 4};
         System.out.println("原始数组：" + Arrays.toString(numbers));
-        new KuaiPai().quick_sort(numbers, 0, numbers.length - 1);
+        new KuaiSuSort().quick_sort(numbers, 0, numbers.length - 1);
         System.out.println("快排之后：" + Arrays.toString(numbers));
     }
 }
